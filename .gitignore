@@ -1,0 +1,56 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.DS_Store
+
+# Virtual Environments
+env/
+venv/
+.venv/
+
+# Byte-compiled / optimized
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# -------------------------
+# SQLite Database
+# -------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------
+# CSV Generated Data
+# -------------------------
+data/*.csv
+
+# If you want to keep sample CSVs remove line above and do:
+# !data/sample_*.csv
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# -------------------------
+# OS Files
+# -------------------------
+Thumbs.db
+ehthumbs.db
+.swp
